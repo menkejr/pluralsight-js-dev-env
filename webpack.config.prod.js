@@ -4,7 +4,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import WebpackMd5Hash from 'webpack-md5-hash';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
-export default {
+export default  {
   debug: true,
   devtool: 'source-map',
   noInfo: false,
@@ -54,3 +54,4 @@ export default {
     ]
   }
 }
+
